@@ -20,7 +20,7 @@ Apresento o meu portfólio ele está simples, pois, estou no começo de aprendiz
 <br>
 
 <p align="center">
-  <img alt="portfólio" src="./img/Captura de Tela (25).png" width="100%">
+  <img alt="portfólio" src="" width="100%">
 </p>
 
 ## 🚀 Tecnologias
