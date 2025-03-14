@@ -23,7 +23,7 @@ Apresento o meu portfólio ele está simples, pois, estou no começo de aprendiz
 <<<<<<< HEAD
   <img alt="portfólio" src="./img/Captura de Tela (26).png" width="100%">
 =======
-  <img alt="portfólio" src="" width="100%">
+  <img alt="portfólio" src="./img/Captura de Tela (26).png" width="100%">
 >>>>>>> b5d98f92c3103baf3acfdc5409044cbd1b79df83
 </p>
 
