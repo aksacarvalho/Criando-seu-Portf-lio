@@ -1,22 +1,319 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title> Portfolio | Aksa Carvalho </title>
 
-   <!-- Icone da Aba - FAVICON-->
-    <link
-      rel="icon"
-      href="./assets/style.css/logo.png"
-      type="image/x-icon"
-    />
+  <!-- Icone da Aba - FAVICON-->
+  <link rel="icon" href="./assets/style.css/logo.png" type="image/x-icon" />
 
-     <!-- Estilo CSS -->
-    <link rel="stylesheet" href="./assets/css/styles.css" />
+  <!-- Estilo CSS -->
+  <link rel="stylesheet" href="./assets/css/styles.css" />
+
+  <!-- Icones de Linguagens-->
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
 
 </head>
+
 <body>
-   <h1>Aksa Carvalho</h1>
+  <!-- =================== HEADER =================== -->
+
+  <header>
+    <!-- Logo do Portfólio -->
+    <h1>
+      <a href="#"><code>Port.Aksa</code></a>
+    </h1>
+
+    <!-- MENU DE NAVEGAÇÃO PRINCIPAL -->
+    <nav>
+      <ul class="menu menu-mobile">
+        <li class="menu-sobre menu-item">
+          <a href="#sobre"><i class="bi bi-person"></i>
+            <span class="nav-item">Sobre</span></a>
+        </li>
+        <li class="menu-conhecimento menu-item">
+          <a href="#conhecimento"><i class="bi bi-book"></i>
+            <span class="nav-item">Conhecimento</span></a>
+        </li>
+        <li class="menu-projetos menu-item">
+          <a href="#projetos"><i class="bi bi-briefcase"></i>
+            <span class="nav-item">Projetos</span></a>
+        </li>
+        <li class="menu-contato menu-item" id="contato">
+          <a href="#formulario-contato">
+            <i class="bi bi-envelope"></i>
+            <span class="nav-item">Contato</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- <div class="icones-sociais">
+        <a href="https://github.com/aksacarvalho" target="_blank"
+          ><i class="bi bi-github"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/aksa-carvalho-066462257/" target="_blank"
+          ><i class="bi bi-linkedin"></i
+        ></a>
+        <a href="aksacarvalho43416@gmail.com" target="_blank"
+          ><i class="bi bi-envelope-fill"></i
+        ></a>
+      </div> -->
+
+    <i id="toggle-theme" class="bi bi-cloud-sun-fill"></i>
+  </header>
+
+  <!-- =================== CONTEÚDO PRINCIPAL =================== -->
+  <main>
+    <!-- Seção de Boas-Vindas -->
+    <section class="apresentacao">
+      <div id="apresentacao" class="reveal-inicio">
+        <h2>
+          <!-- Bem-vindo ao <span class="destaque">Port.Aksa!</span> -->
+          <!-- <span class="emoji-inicio">👋</span> -->
+        
+        </h2>
+        <p>
+          <strong class="destaque">Desenvolvedora Front-end</strong> com foco
+          na criação de interfaces modernas, responsivas e acessíveis.
+          <!-- <span class="paragrafo-2"
+              >Este portfólio foi desenvolvido para apresentar mais sobre mim,
+              junto a minhas habilidades e projetos.</span
+            > -->
+        </p>
+
+        <!-- Ícones sociais -->
+        <!-- <div class="icones-sociais">
+            <a href="https://github.com/aksacarvalho" target="_blank"
+              ><i class="bi bi-github"></i
+            ></a>
+            <a href="https://www.linkedin.com/in/aksa-carvalho-066462257/" target="_blank"
+              ><i class="bi bi-linkedin"></i
+            ></a>
+            <a href="aksacarvalho43416@gmail.com" target="_blank"
+              ><i class="bi bi-envelope-fill"></i
+            ></a>
+          </div> -->
+
+        <!-- Botão Entre em Contato -->
+        <a href="#formulario-contato" id="enter-contato">Entre em Contato</a>
+      </div>
+    </section>
+
+    <!-- =================== SOBRE MIM =================== -->
+    <section class="sobre reveal" id="sobre">
+      <!--  <div class="imagem-container">
+          <img src="./img/Aksa.jpg" alt="Minha Foto" />
+
+          <div class="imagem-info">
+            <p>Aksa de Carvalho Almeida | 31 Anos</p>
+            <p>Desenvolvedora Front-end</p>
+          </div>
+        </div> -->
+
+      <!--  Imagem de perfil -->
+      <img src="./img/Aksa.jpg" alt="Minha Foto" />
+
+      <div class="sobre-texto">
+        <h3 class="titulo-section">
+          <!--<i class="bi bi-person"></i>-->Sobre Mim
+        </h3>
+        <p>
+          Sou Aksa de Carvalho Almeida, 31 anos, residente em Carapicuíba/SP. Atualmente estou em transição de carreira,
+          com foco em desenvolvimento web full stack. Estou cursando Full Stack Developer pela Dev Club, onde venho
+          adquirindo conhecimento prático nas principais tecnologias do mercado.
+          💡 Tecnologias e habilidades em desenvolvimento:
+          - Frontend: HTML5, CSS3, JavaScript, React.js
+          - Backend: Node.js, Express.js
+          - Banco de dados: MongoDB, MySQL
+          - Versionamento: Git, GitHub
+          - Metodologias: Desenvolvimento ágil, boas práticas de código, Clean Code
+          Tenho perfil autodidata, facilidade para aprender novas ferramentas e gosto de trabalhar com soluções
+          eficientes e escaláveis. Busco oportunidades para aplicar meus conhecimentos em projetos reais, colaborar com
+          equipes de tecnologia e evoluir profissionalmente como desenvolvedora.
+        </p>
+
+        <div class="icones-sociais">
+          <a class="reveal bottom" href="https://github.com/aksacarvalho" target="_blank"><i
+              class="bi bi-github"></i></a>
+          <a class="reveal bottom" href="https://www.linkedin.com/in/aksa-carvalho-066462257/" target="_blank"><i
+              class="bi bi-linkedin"></i></a>
+          <a class="reveal bottom" href="https://wa.me/5511957051582" target="_blank"><i class="bi bi-whatsapp"></i></a>
+          <!-- <a href="aksacarvalho43416@gmail.com" target="_blank"
+              ><i class="bi bi-envelope-fill"></i
+            ></a> -->
+        </div>
+      </div>
+    </section>
+
+    <!-- =================== CONHECIMENTO =================== -->
+    <section class="conhecimento" id="conhecimento">
+      <img src="./assets/images/Icone Livro.png" alt="fundo-livro" class="livro-fundo" />
+      <!-- <i class="bi bi-book-half livro-fundo"></i> -->
+      <h2 class="titulo-section">
+        <!--<i class="bi bi-book"></i>-->Conhecimento
+      </h2>
+      <ul class="lista-conhecimento ">
+        <li class="html">
+          <i class="devicon-html5-plain reveal top"></i>
+          <strong>HTML</strong> Conhecimento em HTML5, incluindo semântica e
+          acessibilidade.
+        </li>
+        <li class="css">
+          <i class="devicon-css3-plain reveal top"></i>
+          <strong>CSS</strong> Experiência em CSS3, Flexbox, Grid e
+          Responsividade.
+        </li>
+        <li class="javascript">
+          <i class="devicon-javascript-plain reveal top"></i>
+          <strong>JavaScript</strong> Habilidade em JavaScript ES6+,
+          manipulação do DOM e eventos.
+        </li>
+
+        <li class="nodejs">
+          <i class="devicon-nodejs-plain colored"></i>
+          <strong>Node.js</strong><br />
+          Familiaridade desenvolvimento de APIs, lógica de servidor e integração com banco de dados.
+        </li>
+
+        <li class="express">
+          <i class="devicon-express-original colored"></i>
+          <strong>Express.js</strong><br />
+          Familiaridade criação de rotas, middlewares e estruturação de aplicações backend.
+        </li>
+
+        <li class="mongodb">
+          <i class="devicon-mongodb-plain colored"></i>
+          <strong>MongoDB</strong><br />
+          Familiaridade modelagem de dados NoSQL, integração com Mongoose e operações CRUD.
+        </li>
+
+        <li class="mysql">
+          <i class="devicon-mysql-plain colored"></i>
+          <strong>MySQL</strong><br />
+          Familiaridade criação de tabelas, consultas SQL e relacionamento entre dados.
+        </li>
+
+        <li class="git">
+          <i class="devicon-git-plain reveal top"></i>
+          <strong>Git</strong> Familiaridade com Git, GitHub e controle de
+          versão.
+        </li>
+
+    </section>
+
+    <!-- =================== PROJETOS =================== -->
+    <section class="projetos" id="projetos">
+      <h2 class="titulo-section">
+        <!--<i class="bi bi-briefcase"></i>-->Projetos
+      </h2>
+
+      <!-- Cada projeto dentro da mesma seção -->
+      <div class="Conversor de Moedas">
+        <img src="./img/Conversor de moedas.png" alt="Conversor de moedas" />
+        <div class="descricao">
+          <h3>Conversor de Moedas</h3>
+
+          <p>
+            💱 Conversor de Moedas
+            Este projeto é uma aplicação web interativa desenvolvida com HTML5, CSS3 e JavaScript, que permite ao
+            usuário converter valores entre diferentes moedas em tempo real. O foco principal foi aplicar lógica de
+            programação, manipulação do DOM e boas práticas de desenvolvimento front-end, além de garantir uma
+            experiência responsiva e intuitiva para o usuário.
+          </p>
+
+          <a href="https://conversor-de.netlify.app/" target="_blank">Visitar</a>
+        </div>
+      </div>
+
+      <div class="Instagran">
+        <img src="./img/Instagran.png" alt="Instagran" />
+        <div class="descricao">
+          <h3>Landing Page Instagran</h3>
+          <p>
+            O projeto foi estruturado com HTML5 e CSS3, aplicando conceitos
+            essenciais de responsividade, design moderno e boas práticas de
+            código semântico.
+          </p>
+          <a href="https://instragram2.netlify.app/" target="_blank">Visitar</a>
+        </div>
+      </div>
+
+      <div class="Jokepô">
+        <img src="./img/Jokenpô.png" alt="Jokepô" />
+        <div class="descricao">
+          <h3>Jokepô</h3>
+          <p>
+            🎮 Jokepô – Pedra, Papel e Tesoura
+Este projeto é um jogo clássico recriado com HTML5, CSS3 e JavaScript , focado em interatividade, lógica condicional e dinamismo na interface. O usuário pode desafiar o computador em partidas rápidas, com feedback visual imediato e placar em tempo real. A aplicação destaca-se pelo uso de eventos JavaScript, atualização dinâmica do DOM e um layout responsivo que se adapta a diferentes dispositivos.
+
+          </p>
+          <a href="https://jokenpo-jok.netlify.app/" target="_blank">Visitar</a>
+        </div>
+      </div>
+
+      <div class="Mario Boss">
+        <img src="./img/Mario.png" alt="Mario-boss" />
+        <div class="descricao">
+          <h3>Landing Page Mario Boss</h3>
+          <p>
+            Landing Page moderna e responsiva desenvolvida para apresentar a Mario Boss Encanadores, uma empresa fictícia inspirada nos irmãos mais famosos dos videogames: Mario e Luigi. Especializada em soluções hidráulicas com estilo e agilidade, a página combina elementos nostálgicos do universo Super Mario com um design profissional voltado para solução de problema de encamento do cliente.
+
+          </p>
+          <a href="https://bross.netlify.app/" target="_blank">Visitar</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- =================== CONTATO =================== -->
+    <section class="contato" id="contato formulario">
+      <h2 class="titulo-section">
+        <!--<i class="bi bi-envelope"></i>-->Contato
+      </h2>
+      <p>
+        Entre em contato comigo através das redes sociais ou preencha o
+        formulário:
+      </p>
+
+      <!-- Formulário de contato -->
+      <form action="" id="formulario-contato" method="post">
+        <input type="hidden" name="_captcha" value="false" />
+        <input type="hidden" name="_subject" value="Nova mensagem de contato pelo Portfólio!" />
+        <input type="hidden" name="_template" value="table" />
+        <!-- Organiza bonitinho em formato de tabela -->
+
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="Nome" placeholder="Seu nome" required />
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="E-mail" placeholder="seuemail@example.com" required />
+
+        <label for="telefone">Telefone:</label>
+        <input type="tel" id="telefone" name="Telefone" placeholder="+55 11 957051582" required />
+
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="Mensagem" rows="4" placeholder="Escreva sua mensagem aqui..." required></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- =================== FOOTER =================== -->
+  <footer>
+    <p>&copy; 2025 Port.Aksa. Todos os direitos reservados.</p>
+    <div class="icones-sociais">
+      <a href="https://github.com/aksacarvalho" target="_blank"><i class="bi bi-github"></i></a>
+      <a href="https://www.linkedin.com/in/aksa-carvalho-066462257/" target="_blank"><i class="bi bi-linkedin"></i></a>
+      <a href="https://wa.me/5511957051582" target="_blank"><i class="bi bi-whatsapp"></i></a>
+      <a href="aksacarvalho4316@gmail.com" target="_blank"><i class="bi bi-envelope-fill"></i></a>
+    </div>
+  </footer>
+
+
+
 </body>
+
 </html>
