@@ -32,34 +32,34 @@
 }
 
 :root[data-theme="light"] {
-  --bg-color: #f9f9f9;
-  --bg-menu: #ffffff;
-  --bg-menu-mobile: #c5c5c5;
-  --button-menu-mobile: #ffffff;
-  --text-color-menu: #4e4e4e;
-  --menu-icon-text-color: #3262ff;
-  --toggle-theme-color: #222222;
-  --primary-color: #ffffff;
-  --secondary-color: #222222;
-  --tertiary-color: #8aa6ff;
-  --fourty-color: #f4f4f4;
-  --bg-sobre-mim-1: #f2f2f2;
-  --bg-sobre-mim-2: #e0e0e0;
-  --social-icon-color: #688bff;
-  --social-icon-hover: #5078fa;
-  --title-color: #5078fa;
-  --text-color: #222222;
-  --button-color: #5078fa;
-  --border-color: #5078fa;
-  --shadow-light-color: #3262ffc4;
-  --shadow-color: #2222227a;
-  --link-color: #ffffff;
-  --link-hover-color: #3262ff;
-  --input-placeholder-color: #858585;
-  --input-formulario-color: #dfdfdf;
-  --bg-footer-color: #ffffff;
-  --footer-icons-color: #555555;
-  --footer-icons-hover: #3f3f3f;
+  --bg-color: #fcf6f9; 
+  --bg-menu: #ffffff; 
+  --bg-menu-mobile: #e2d7e5; 
+  --button-menu-mobile: #ffffff; 
+  --text-color-menu: #4f464d; 
+  --menu-icon-text-color: #b0899d; 
+  --toggle-theme-color: #3d3441; 
+  --primary-color: #ffffff; 
+  --secondary-color: #3d3441; 
+  --tertiary-color: #d1b1c5; 
+  --fourty-color: #f7f0f4; 
+  --bg-sobre-mim-1: #fcf6f9; 
+  --bg-sobre-mim-2: #f2e7f0; 
+  --social-icon-color: #b0899d; 
+  --social-icon-hover: #a17890; 
+  --title-color: #605763; 
+  --text-color: #3d3441; 
+  --button-color: #C67091; /* Nova tonalidade de rosa mais vibrante */
+  --border-color: #C67091; /* Borda combinando com o novo botão */
+  --shadow-light-color: #d1b1c5c4; 
+  --shadow-color: #3d34417a; 
+  --link-color: #ffffff; /* Cor do link alterada para branco para melhor leitura */
+  --link-hover-color: #a17890; 
+  --input-placeholder-color: #887a8b; 
+  --input-formulario-color: #e9e0e9; 
+  --bg-footer-color: #ffffff; 
+  --footer-icons-color: #7a6e7c; 
+  --footer-icons-hover: #5d535f; 
 }
 
 html[data-theme="light"] #toggle-theme {
@@ -242,7 +242,7 @@ section.apresentacao {
       rgba(0, 0, 0, 0.76),
       rgba(0, 0, 0, 0)
     ),
-    url("../images/fundo-codigo2.webp");
+    url("../img/fundo-codigo.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -298,7 +298,7 @@ section.apresentacao h2 .destaque {
         rgba(0, 0, 0, 0.5),
         rgba(0, 0, 0, 0)
       ),
-      url("../images/fundo-codigo2.webp");
+      url("../img/fundo-codigo.png");
   }
   section.apresentacao h2 .destaque {
     font-size: 3.2rem;
