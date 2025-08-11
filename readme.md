@@ -36,7 +36,7 @@ Este projeto é meu portfólio pessoal, desenvolvido com o objetivo de apresenta
 ## 🔗 Acesse o Projeto
 
 Você pode visualizar o projeto publicado neste link:
-👉 /
+👉 https://criando-seu-portf-lio-aksas-projects-d718ec05.vercel.app/
 
 ---
 
