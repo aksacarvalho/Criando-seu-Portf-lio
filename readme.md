@@ -36,7 +36,7 @@ Este projeto é meu portfólio pessoal, desenvolvido com o objetivo de apresenta
 ## 🔗 Acesse o Projeto
 
 Você pode visualizar o projeto publicado neste link:
-👉 https://1faeell.github.io./portfolio/
+👉 /
 
 ---
 
